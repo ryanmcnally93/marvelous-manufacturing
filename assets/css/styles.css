@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 #logo {
     width: 200px;
 }
 
 #header-message {
-    font-family: sriracha,cursive;
     color: white;
     font-size: 24px;
     text-align: center;
@@ -61,7 +66,6 @@ img {
 
 .page-heading {
     color: rgb(16, 91, 172);
-    font-family: sriracha,cursive;
 }
 
 #alumni-image {
