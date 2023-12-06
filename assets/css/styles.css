@@ -109,11 +109,20 @@ img {
     font-weight: 300;
 }
 
+.ange {
+    max-width: 111.5% !important;
+}
+
+.ange-box {
+    overflow: hidden;
+}
+
 .white-button {
     background-color: white;
     color: rgb(16, 91, 172);
     border: 1px solid white;
     width: fit-content;
+    display: flex;
 }
 
 .white-button:hover {
@@ -121,8 +130,24 @@ img {
     color: white;
 }
 
+.request-link {
+    color: white !important;
+}
+
 .fa-quote-right {
     font-size: 72px;
+}
+
+.festival-card {
+    height: 680px;
+    background-color: rgb(16, 91, 172);
+    color: white;
+}
+
+.festival-info {
+    height: 250px;
+    overflow: scroll;
+    margin-bottom: 20px;
 }
 
 .quote-box {
