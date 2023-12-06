@@ -108,3 +108,49 @@ img {
 .fwlight {
     font-weight: 300;
 }
+
+.white-button {
+    background-color: white;
+    color: rgb(16, 91, 172);
+    border: 1px solid white;
+    width: fit-content;
+}
+
+.white-button:hover {
+    background-color: rgb(16, 91, 172);
+    color: white;
+}
+
+.fa-quote-right {
+    font-size: 72px;
+}
+
+.quote-box {
+    height: 400px;
+    overflow: scroll;
+}
+
+.bg-lightblue {
+    background-color: #BCDBFB;
+    color: rgb(16, 91, 172);
+}
+
+@media (min-width: 1200px) {
+    .image-business-box {
+        max-height: 820px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .image-business-box {
+        max-height: 936px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}
