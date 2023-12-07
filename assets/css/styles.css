@@ -159,8 +159,41 @@ img {
     font-size: 12px;
 }
 
+#diagram-middle {
+    position: absolute;
+    left: 30%;
+    top: 41.5%;
+    border-radius: 50%;
+    width: 40%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #diagram-middle {
+        top: 44%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #diagram-middle {
+        top: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    #diagram-middle {
+        top: 60%;
+    }
+}
+
 .our-mission {
     flex: 100%;
+}
+
+.area-image-box {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
 }
 
 .fwlight {
@@ -171,6 +204,33 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.area-image {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    overflow: hidden;
+}
+
+.area-name {
+    width: 200px;
+    display: none;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.area-anchor {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    position: absolute;
 }
 
 @media (min-width: 1200px) {
