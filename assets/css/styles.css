@@ -233,6 +233,31 @@ img {
     position: absolute;
 }
 
+.about-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.mt-6 {
+    margin-top: 4rem !important;
+}
+
+@media (max-width: 991px) {
+    .about-image {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+        margin-left: -35px;
+    }
+}
+
 @media (min-width: 1200px) {
     .stem-header {
         font-size: 2rem;
