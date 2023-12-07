@@ -94,24 +94,14 @@ img {
     overflow: scroll;
 }
 
-.result-1-row {
-    position: absolute;
-    bottom: 13px;
-}
-
 .price-message {
     height: 120px;
     display: flex;
 }
 
-.result-2-row {
+.result-row {
     position: absolute;
     bottom: 65px;
-}
-
-.result-3-row {
-    position: absolute;
-    bottom: -5px;
 }
 
 .price-box {
@@ -177,12 +167,99 @@ img {
     font-weight: 300;
 }
 
+.quote-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+    .stem-header {
+        font-size: 2rem;
+    }
+    .stem-message-box {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1570px) {
+    .col-mysize-4 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+    }
+}
+
+.col-mysize-4 {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1040px) {
+    .col-mylg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .provide-row {
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) {
+    .provide-row {
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .provide-row {
+        margin: 0 5%;
+    }
+}
+
+.provide-card {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    max-width: 450px;
+}
+
+.provide-row {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.provide-message {
+    padding-right: 2rem !important;
+}
+
+.stem-message-box {
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
 .ange {
     max-width: 111.5% !important;
 }
 
 .ange-box {
     overflow: hidden;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    height: 72px;
+    align-items: center;
+    display: flex;
 }
 
 .white-button {
