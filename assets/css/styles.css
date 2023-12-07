@@ -68,6 +68,70 @@ img {
     color: rgb(16, 91, 172);
 }
 
+.together-image {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.hr-border-top {
+    border-top: 2px solid white;
+    padding-top: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+.background {
+    background: url(/assets/images/courses-background.webp);
+    height: 862px;
+}
+
+.service-ul {
+    padding-left: 25px;
+}
+
+.card-top {
+    height: 370px;
+    overflow: scroll;
+}
+
+.result-1-row {
+    position: absolute;
+    bottom: 13px;
+}
+
+.price-message {
+    height: 120px;
+    display: flex;
+}
+
+.result-2-row {
+    position: absolute;
+    bottom: 65px;
+}
+
+.result-3-row {
+    position: absolute;
+    bottom: -5px;
+}
+
+.price-box {
+    width: 33% !important;
+    justify-content: center;
+}
+
+.service-card {
+    height: 720px;
+    padding: 0;
+    max-width: 350px;
+}
+
+.hr-border-bottom {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    width: 70%;
+    text-align: center;
+}
+
 #alumni-image {
     margin-top: 20px;
     height: 112px;
