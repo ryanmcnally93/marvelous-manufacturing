@@ -245,6 +245,22 @@ img {
     border: 1px solid white;
 }
 
+.flex-auto {
+    flex: auto !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+#global-image {
+    position: absolute;
+}
+
 .height-control {
     height: 200px;
     overflow: scroll;
