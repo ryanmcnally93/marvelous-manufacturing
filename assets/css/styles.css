@@ -245,6 +245,15 @@ img {
     border: 1px solid white;
 }
 
+.height-control {
+    height: 200px;
+    overflow: scroll;
+}
+
+.mt-mine {
+    margin-top: 0.75rem !important;
+}
+
 .mt-6 {
     margin-top: 4rem !important;
 }
