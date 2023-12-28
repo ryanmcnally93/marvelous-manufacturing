@@ -266,12 +266,19 @@ img {
     overflow: scroll;
 }
 
+.successful-image {
+    display: flex;
+    float: right;
+    margin: 0 0 5px 10px;
+    max-width: 40%;
+}
+
 .mt-mine {
     margin-top: 0.75rem !important;
 }
 
 .mt-6 {
-    margin-top: 4rem !important;
+    margin-top: 4.5rem !important;
 }
 
 @media (max-width: 991px) {
