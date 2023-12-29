@@ -68,6 +68,10 @@ img {
     color: rgb(16, 91, 172);
 }
 
+.max-550 {
+    max-width: 550px;
+}
+
 .together-image {
     border-radius: 50%;
     width: 300px;
@@ -419,6 +423,22 @@ img {
 
 .bg-lightblue {
     background-color: #BCDBFB;
+    color: rgb(16, 91, 172);
+}
+
+#pizza-video {
+    height: 400px;
+    width: 70%;
+    margin: 1rem 0;
+}
+
+#lego-video {
+    width: 90%;
+    margin: 2rem 0;
+}
+
+.bg-lightpink {
+    background-color: #F4D7F9;
     color: rgb(16, 91, 172);
 }
 
