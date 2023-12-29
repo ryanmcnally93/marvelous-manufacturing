@@ -269,7 +269,7 @@ img {
 .successful-image {
     display: flex;
     float: right;
-    margin: 0 0 5px 10px;
+    margin: 0 0 1.5rem 1.5rem;
     max-width: 40%;
 }
 
