@@ -23,6 +23,38 @@ body {
     color: white;
 }
 
+.bg-blue-button {
+    background-color: rgb(16, 91, 172);
+    color: white;
+    border: 1px solid darkblue;
+}
+
+.bg-blue-button:hover {
+    background-color: white;
+    color: rgb(16, 91, 172);
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+
+.bg-lightblue-button {
+    background-color: #BCDBFB;
+    color: rgb(16, 91, 172);
+    border: 1px solid rgb(16, 91, 172);
+}
+
+.bg-lightblue-button:hover {
+    background-color: white;
+    color: rgb(16, 91, 172);
+    border: 1px solid rgb(16, 91, 172);
+    cursor: pointer;
+}
+
+#collapseOne, #collapseTwo {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
 #nav-decorator {
     height: 20px;
 }
@@ -424,6 +456,19 @@ img {
 .bg-lightblue {
     background-color: #BCDBFB;
     color: rgb(16, 91, 172);
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.news-button {
+    border-radius: 0;
+}
+
+.w-70 {
+    padding: 0;
+    width: 70%;
 }
 
 #pizza-video {
