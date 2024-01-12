@@ -55,6 +55,10 @@ body {
     padding-top: 15px;
 }
 
+#map {
+    height: 700px;
+}
+
 .map-images {
     border-radius: 50%;
 }

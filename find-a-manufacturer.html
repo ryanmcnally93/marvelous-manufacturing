@@ -123,8 +123,79 @@
       </div>
 
       <!-- Map -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2813404.115982138!2d-3.6947841907472747!3d53.02817400500516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1704827359334!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+      <div id="map"></div>
+        <script>
+          function initMap() {
+            let uk = {lat: 54.3555, lng: -4.8455};
+            let business_one = {lat: 0, lng: 0}; // Exactaform Cutting Tools Ltd
+            let business_two = {lat: 0, lng: 0}; // Greif UK Ltd
+            let business_three = {lat: 0, lng: 0}; // MSP Ltd
+            let business_four = {lat: 0, lng: 0}; // Corrosion Resistant Materials Ltd
+            let business_five = {lat: 0, lng: 0}; // Lander Tubular Products
+            let business_six = {lat: 0, lng: 0}; // Mavrik Innovations
+            let business_seven = {lat: 0, lng: 0}; // JJ Smith &amp; Co (Woodworking Machinery) Ltd
+            let business_eight = {lat: 0, lng: 0}; // Cambridge Micro Engineering Limited
+            let business_nine = {lat: 0, lng: 0}; // Bosworth Plastics Limited
+            let business_ten = {lat: 0, lng: 0}; // TNC Precision Engineering Ltd
+            let business_eleven = {lat: 0, lng: 0}; // Martins Rubber Co Ltd
+            let business_twelve = {lat: 0, lng: 0}; // National Manufacturing Institute Scotland
+            let business_thirteen = {lat: 52.88329, lng: -2.53366}; // Caswell Engineering services Ltd
+            let business_fourteen = {lat: 0, lng: 0}; // Hydroscand Ltd
+            let business_fifteen = {lat: 0, lng: 0}; // Boneham &amp; Turner Limited
+            let business_sixteen = {lat: 0, lng: 0}; // SD Technics Design &amp; Draughting
+            let business_seventeen = {lat: 0, lng: 0}; // Geometric Manufacturing Ltd
+            let business_eighteen = {lat: 0, lng: 0}; // Hone-All Precision Ltd
+            let business_nineteen = {lat: 0, lng: 0}; // Figjam Solutions Ltd
+            let business_twenty = {lat: 0, lng: 0}; // Stroud Engineering Services LTD
+            let business_twenty_one = {lat: 0, lng: 0}; // M-CNC Precision Engineering Ltd
+            let business_twenty_two = {lat: 0, lng: 0}; // Steve Murphy Continuous Improvement Limited
+            let business_twenty_three = {lat: 52.54499, lng: -2.03192}; // MSC
+            let business_twenty_four = {lat: 52.72598, lng: -2.01515}; // HQA
+            let business_twenty_five = {lat: 0, lng: 0}; // TCMUK Limited
+            let business_twenty_six = {lat: 0, lng: 0}; // Simon Davey Consulting Ltd
+            let business_twenty_seven = {lat: 0, lng: 0}; // Calderdale and Kirklees Manufacturing Alliance (CKMA)
+            let business_twenty_eight = {lat: 0, lng: 0}; // Liberty360 Ltd
+            let business_twenty_nine = {lat: 0, lng: 0}; // Pennine Pneumatic Services Ltd
+            let business_thirty = {lat: 0, lng: 0}; // EQUESTRIAN SURFACES LTD
+            let business_thirty_one = {lat: 0, lng: 0}; // iDeas Design Consultants Ltd
+            let business_thirty_two = {lat: 0, lng: 0}; // Atlas Leisure Homes
+            let business_thirty_three = {lat: 0, lng: 0}; // Excell Metal Spinning Ltd
+            let business_thirty_four = {lat: 0, lng: 0}; // NCMT Ltd
+            let business_thirty_five = {lat: 0, lng: 0}; // Atlas Leisure Homes
+            let business_thirty_six = {lat: 0, lng: 0}; // The Curve Consulting
+            let business_thirty_seven = {lat: 0, lng: 0}; // Cambridge Micro Engineering Limited
+            let business_thirty_eight = {lat: 52.45488, lng: -2.12014}; // HCM Engineering
+            let business_thirty_nine = {lat: 52.48994, lng: -1.88227}; // Birmingham Case Makers Ltd
+            let business_fourty = {lat: 0, lng: 0}; // Engineering Media
+            let business_fourty_one = {lat: 0, lng: 0}; // Arracan Group
+            let business_fourty_two = {lat: 0, lng: 0}; // My Future My Choice
+            let business_fourty_three = {lat: 0, lng: 0}; // Kumon Rumney Study Centre
+            let business_fourty_four = {lat: 0, lng: 0}; // Blue Switch Marketing Ltd
+            let business_fourty_five = {lat: 0, lng: 0}; // Boyden
+            let business_fourty_six = {lat: 0, lng: 0}; // Axiom Energy
+            let business_fourty_seven = {lat: 0, lng: 0}; // Mcleod Consultancy Services Limited
+            let business_fourty_eight = {lat: 0, lng: 0}; // CVG Solutions Ltd
+            let business_fourty_nine = {lat: 0, lng: 0}; // MindShaping Coaching
+            let business_fifty = {lat: 0, lng: 0}; // Charles Whitaker Changes
+            let business_fifty_one = {lat: 0, lng: 0}; // ACCOUNTICO LTD
+            let business_fifty_two = {lat: 0, lng: 0}; // Hexagon FM
+            let business_fifty_three = {lat: 0, lng: 0}; // Smart Quality Services
+            let business_fifty_four = {lat: 0, lng: 0}; // The Sales Lady
+            let business_fifty_five = {lat: 0, lng: 0}; // F1rst Commercial Recruitment
+            let business_fifty_six = {lat: 0, lng: 0}; // East Midlands HR Ltd
+            let business_fifty_seven = {lat: 0, lng: 0}; // Sara Penrose
+            let map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 5.75, center: uk}
+            );
+            let thirty_nine_marker = new google.maps.Marker(
+              {position: business_thirty_nine, map: map}
+            );
+            let thirty_twenty_three = new google.maps.Marker(
+              {position: business_twenty_three, map: map}
+            );
+          }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTBPu53ruaDHa9c78AVunyfGEpUPiGmtk&callback=initMap"></script>
     </main>
 
     <!-- Footer -->
