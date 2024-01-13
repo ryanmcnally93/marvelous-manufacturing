@@ -100,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="row bg-blue py-4">
+      <div class="row bg-blue py-4 mr-0">
         <div class="container">
           <div class="row text-center">
             <div class="col-4">
@@ -165,7 +165,6 @@
             let business_thirty_six = {lat: 53.38716, lng: -1.46444}; // The Curve Consulting
             let business_thirty_seven = {lat: 52.09795, lng: 0.27961}; // Cambridge Micro Engineering Limited
             let business_thirty_eight = {lat: 52.45488, lng: -2.12014}; // HCM Engineering
-            let business_thirty_nine = {lat: 52.48994, lng: -1.88227}; // Birmingham Case Makers Ltd
             let business_fourty = {lat: 51.22806, lng: 0.63084}; // Engineering Media
             let business_fourty_one = {lat: 51.06492, lng: 0.16597}; // Arracan Group
             let business_fourty_two = {lat: 51.44959, lng: -2.59710}; // My Future My Choice
@@ -180,18 +179,22 @@
             let business_fifty_one = {lat: 52.39328, lng: -1.99104}; // ACCOUNTICO LTD
             let business_fifty_two = {lat: 52.54835, lng: -1.85160}; // Hexagon FM
             let business_fifty_three = {lat: 50.72133, lng: -1.87797}; // Smart Quality Services
-            let business_fifty_four = {lat: 0, lng: 0}; // The Sales Lady
-            let business_fifty_five = {lat: 0, lng: 0}; // F1rst Commercial Recruitment
+            let business_fifty_four = {lat: 54.04553, lng: -2.89335}; // The Sales Lady
+            let business_fifty_five = {lat: 53.40975, lng: -2.16424}; // F1rst Commercial Recruitment
             let business_fifty_six = {lat: 52.26199, lng: -0.78761}; // East Midlands HR Ltd
             let map = new google.maps.Map(
               document.getElementById('map'), {zoom: 5.75, center: uk}
             );
-            let thirty_nine_marker = new google.maps.Marker(
-              {position: business_thirty_nine, map: map}
-            );
-            let thirty_twenty_three = new google.maps.Marker(
-              {position: business_twenty_three, map: map}
-            );
+            let icons = {
+              url: './assets/images/markers.png',
+              scaledSize: new google.maps.Size(27.25, 14.125)
+            }
+            let thirty_nine_marker = new google.maps.Marker( {
+              position: {lat: 52.48994, lng: -1.88227},
+              map: map,
+              icon: icons,
+              content: 'Birmingham Case Makers Ltd'
+            });
           }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTBPu53ruaDHa9c78AVunyfGEpUPiGmtk&callback=initMap"></script>

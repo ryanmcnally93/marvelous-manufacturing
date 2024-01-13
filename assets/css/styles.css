@@ -55,6 +55,12 @@ body {
     padding-top: 15px;
 }
 
+.customTag {
+    background-color: yellow !important;
+    height: 200px !important;
+    width: 200px !important;
+}
+
 #map {
     height: 700px;
 }
