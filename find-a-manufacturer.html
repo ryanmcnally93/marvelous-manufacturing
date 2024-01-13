@@ -125,9 +125,6 @@
       <!-- Map -->
       <div id="map"></div>
         <script>
-          function addQualities(business_number) {
-            console.log('working');
-          }
           function initMap() {
             let uk = {lat: 54.3555, lng: -4.8455};
             let map = new google.maps.Map(
@@ -135,8 +132,13 @@
             );
             let icons = {
               url: './assets/images/markers.png',
-              scaledSize: new google.maps.Size(27.25, 14.125)
+              scaledSize: new google.maps.Size(27.25, 14.125),
             }
+            let largerIcon = {
+              url: './assets/images/markers.png',
+              scaledSize: new google.maps.Size(40.875, 21.1875),
+            }
+            let businesses = [];
             let business_one = new google.maps.Marker( {
               position: {lat: 52.45736, lng: -1.52918},
               map: map,
@@ -144,337 +146,400 @@
               content: 'Exactaform Cutting Tools Ltd',
               title: 'business_one'
             });
-            addQualities(business_one);
+            businesses.push(business_one);
             let business_two = new google.maps.Marker( {
               position: {lat: 53.28102, lng: -2.86991},
               map: map,
               icon: icons,
               content: 'Greif UK Ltd'
             });
+            businesses.push(business_two);
             let business_three = new google.maps.Marker( {
               position: {lat: 55.40189, lng: -1.69705},
               map: map,
               icon: icons,
               content: 'MSP Ltd'
             });
+            businesses.push(business_three);
             let business_four = new google.maps.Marker( {
               position: {lat: 53.48887, lng: -1.29540},
               map: map,
               icon: icons,
               content: 'Corrosion Resistant Materials Ltd'
             });
+            businesses.push(business_four);
             let business_five = new google.maps.Marker( {
               position: {lat: 52.44186, lng: -1.99949},
               map: map,
               icon: icons,
               content: 'Lander Tubular Products'
             });
+            businesses.push(business_five);
             let business_six = new google.maps.Marker( {
               position: {lat: 51.52066, lng: -3.56528},
               map: map,
               icon: icons,
               content: 'Mavrik Innovations'
             });
+            businesses.push(business_six);
             let business_seven = new google.maps.Marker( {
               position: {lat: 53.46808, lng: -2.86981},
               map: map,
               icon: icons,
               content: 'JJ Smith &amp; Co (Woodworking Machinery) Ltd'
             });
+            businesses.push(business_seven);
             let business_eight = new google.maps.Marker( {
               position: {lat: 52.23085, lng: -2.19623},
               map: map,
               icon: icons,
               content: 'MAT LTD'
             });
+            businesses.push(business_eight);
             let business_nine = new google.maps.Marker( {
               position: {lat: 52.53716, lng: -1.40165},
               map: map,
               icon: icons,
               content: 'Bosworth Plastics Limited'
             });
+            businesses.push(business_nine);
             let business_ten = new google.maps.Marker( {
               position: {lat: 51.60128, lng: 0.54597},
               map: map,
               icon: icons,
               content: 'TNC Precision Engineering Ltd'
             });
+            businesses.push(business_ten);
             let business_eleven = new google.maps.Marker( {
               position: {lat: 50.89894, lng: -1.40023},
               map: map,
               icon: icons,
               content: 'Martins Rubber Co Ltd'
             });
+            businesses.push(business_eleven);
             let business_twelve = new google.maps.Marker( {
               position: {lat: 55.88480, lng: -4.44157},
               map: map,
               icon: icons,
               content: 'National Manufacturing Institute Scotland'
             });
+            businesses.push(business_twelve);
             let business_thirteen = new google.maps.Marker( {
               position: {lat: 52.88329, lng: -2.53366},
               map: map,
               icon: icons,
               content: 'Caswell Engineering services Ltd'
             });
+            businesses.push(business_thirteen);
             let business_fourteen = new google.maps.Marker( {
               position: {lat: 52.92702, lng: -1.28775},
               map: map,
               icon: icons,
               content: 'Hydroscand Ltd'
             });
+            businesses.push(business_fourteen);
             let business_fifteen = new google.maps.Marker( {
               position: {lat: 53.11748, lng: -1.24877},
               map: map,
               icon: icons,
               content: 'Boneham &amp; Turner Limited'
             });
+            businesses.push(business_fifteen);
             let business_sixteen = new google.maps.Marker( {
               position: {lat: 50.50112, lng: -4.40804},
               map: map,
               icon: icons,
               content: 'SD Technics Design &amp; Draughting'
             });
+            businesses.push(business_sixteen);
             let business_seventeen = new google.maps.Marker( {
               position: {lat: 51.99934, lng: -2.12493},
               map: map,
               icon: icons,
               content: 'Geometric Manufacturing Ltd'
             });
+            businesses.push(business_seventeen);
             let business_eighteen = new google.maps.Marker( {
               position: {lat: 51.91517, lng: -0.63531},
               map: map,
               icon: icons,
               content: 'Hone-All Precision Ltd'
             });
+            businesses.push(business_eighteen);
             let business_nineteen = new google.maps.Marker( {
               position: {lat: 52.45875, lng: -0.94552},
               map: map,
               icon: icons,
               content: 'Figjam Solutions Ltd'
             });
+            businesses.push(business_nineteen);
             let business_twenty = new google.maps.Marker( {
               position: {lat: 51.75300, lng: -2.29588},
               map: map,
               icon: icons,
               content: 'Stroud Engineering Services LTD'
             });
+            businesses.push(business_twenty);
             let business_twenty_one = new google.maps.Marker( {
               position: {lat: 51.16463, lng: -2.98869},
               map: map,
               icon: icons,
               content: 'M-CNC Precision Engineering Ltd'
             });
+            businesses.push(business_twenty_one);
             let business_twenty_two = new google.maps.Marker( {
               position: {lat: 56.08239, lng: -3.36645},
               map: map,
               icon: icons,
               content: 'Steve Murphy Continuous Improvement Limited'
             });
+            businesses.push(business_twenty_two);
             let business_twenty_three = new google.maps.Marker( {
               position: {lat: 52.54499, lng: -2.03192},
               map: map,
               icon: icons,
               content: 'MSC'
             });
+            businesses.push(business_twenty_three);
             let business_twenty_four = new google.maps.Marker( {
               position: {lat: 52.72598, lng: -2.01515},
               map: map,
               icon: icons,
               content: 'HQA'
             });
+            businesses.push(business_twenty_four);
             let business_twenty_five = new google.maps.Marker( {
               position: {lat: 52.62660, lng: -1.42164},
               map: map,
               icon: icons,
               content: 'TCMUK Limited'
             });
+            businesses.push(business_twenty_five);
             let business_twenty_six = new google.maps.Marker( {
               position: {lat: 52.47202, lng: -0.69620},
               map: map,
               icon: icons,
               content: 'Simon Davey Consulting Ltd'
             });
+            businesses.push(business_twenty_six);
             let business_twenty_seven = new google.maps.Marker( {
               position: {lat: 53.59401, lng: -1.64999},
               map: map,
               icon: icons,
               content: 'Calderdale and Kirklees Manufacturing Alliance (CKMA)'
             });
+            businesses.push(business_twenty_seven);
             let business_twenty_eight = new google.maps.Marker( {
               position: {lat: 53.69309, lng: -1.63331},
               map: map,
               icon: icons,
               content: 'Liberty360 Ltd'
             });
+            businesses.push(business_twenty_eight);
             let business_twenty_nine = new google.maps.Marker( {
               position: {lat: 53.69404, lng: -1.78636},
               map: map,
               icon: icons,
               content: 'Pennine Pneumatic Services Ltd'
             });
+            businesses.push(business_twenty_nine);
             let business_thirty = new google.maps.Marker( {
               position: {lat: 53.78753, lng: -2.27236},
               map: map,
               icon: icons,
               content: 'EQUESTRIAN SURFACES LTD'
             });
+            businesses.push(business_thirty);
             let business_thirty_one = new google.maps.Marker( {
               position: {lat: 52.25805, lng: 0.98844},
               map: map,
               icon: icons,
               content: 'iDeas Design Consultants Ltd'
             });
+            businesses.push(business_thirty_one);
             let business_thirty_two = new google.maps.Marker( {
               position: {lat: 53.72874, lng: -0.38634},
               map: map,
               icon: icons,
               content: 'Atlas Leisure Homes'
             });
+            businesses.push(business_thirty_two);
             let business_thirty_three = new google.maps.Marker( {
               position: {lat: 50.83145, lng: -1.06465},
               map: map,
               icon: icons,
               content: 'Excell Metal Spinning Ltd'
             });
+            businesses.push(business_thirty_three);
             let business_thirty_four = new google.maps.Marker( {
               position: {lat: 52.37786, lng: -1.46409},
               map: map,
               icon: icons,
               content: 'NCMT Ltd'
             });
+            businesses.push(business_thirty_four);
             let business_thirty_five = new google.maps.Marker( {
               position: {lat: 52.22027, lng: 0.86157},
               map: map,
               icon: icons,
               content: 'Sara Penrose'
             });
+            businesses.push(business_thirty_five);
             let business_thirty_six = new google.maps.Marker( {
               position: {lat: 53.38716, lng: -1.46444},
               map: map,
               icon: icons,
               content: 'The Curve Consulting'
             });
+            businesses.push(business_thirty_six);
             let business_thirty_seven = new google.maps.Marker( {
               position: {lat: 52.09795, lng: 0.27961},
               map: map,
               icon: icons,
               content: 'Cambridge Micro Engineering Limited'
             });
+            businesses.push(business_thirty_seven);
             let business_thirty_eight = new google.maps.Marker( {
               position: {lat: 52.45488, lng: -2.12014},
               map: map,
               icon: icons,
               content: 'EHCM Engineering'
             });
+            businesses.push(business_thirty_eight);
             let business_thirty_nine = new google.maps.Marker( {
               position: {lat: 52.48994, lng: -1.88227},
               map: map,
               icon: icons,
               content: 'Birmingham Case Makers Ltd'
             });
+            businesses.push(business_thirty_nine);
             let business_fourty = new google.maps.Marker( {
               position: {lat: 51.22806, lng: 0.63084},
               map: map,
               icon: icons,
               content: 'Engineering Media'
             });
+            businesses.push(business_fourty);
             let business_fourty_one = new google.maps.Marker( {
               position: {lat: 51.06492, lng: 0.16597},
               map: map,
               icon: icons,
               content: 'Arracan Group'
             });
+            businesses.push(business_fourty_one);
             let business_fourty_two = new google.maps.Marker( {
               position: {lat: 51.44959, lng: -2.59710},
               map: map,
               icon: icons,
               content: 'My Future My Choice'
             });
+            businesses.push(business_fourty_two);
             let business_fourty_three = new google.maps.Marker( {
               position: {lat: 51.50867, lng: -3.13222},
               map: map,
               icon: icons,
               content: 'Kumon Rumney Study Centre'
             });
+            businesses.push(business_fourty_three);
             let business_fourty_four = new google.maps.Marker( {
               position: {lat: 52.17488, lng: -0.65834},
               map: map,
               icon: icons,
               content: 'Blue Switch Marketing Ltd'
             });
+            businesses.push(business_fourty_four);
             let business_fourty_five = new google.maps.Marker( {
               position: {lat: 51.51107, lng: -0.08423},
               map: map,
               icon: icons,
               content: 'Boyden'
             });
+            businesses.push(business_fourty_five);
             let business_fourty_six = new google.maps.Marker( {
               position: {lat: 52.62400, lng: -1.09281},
               map: map,
               icon: icons,
               content: 'Axiom Energy'
             });
+            businesses.push(business_fourty_six);
             let business_fourty_seven = new google.maps.Marker( {
               position: {lat: 55.09220, lng: -1.58365},
               map: map,
               icon: icons,
               content: 'Mcleod Consultancy Services Limited'
             });
+            businesses.push(business_fourty_seven);
             let business_fourty_eight = new google.maps.Marker( {
               position: {lat: 52.95589, lng: -0.03724},
               map: map,
               icon: icons,
               content: 'CVG Solutions Ltd'
             });
+            businesses.push(business_fourty_eight);
             let business_fourty_nine = new google.maps.Marker( {
               position: {lat: 51.60444, lng: 0.08759},
               map: map,
               icon: icons,
               content: 'MindShaping Coaching'
             });
+            businesses.push(business_fourty_nine);
             let business_fifty = new google.maps.Marker( {
               position: {lat: 51.19891, lng: 0.06159},
               map: map,
               icon: icons,
               content: 'Charles Whitaker Changes'
             });
+            businesses.push(business_fifty);
             let business_fifty_one = new google.maps.Marker( {
               position: {lat: 52.39328, lng: -1.99104},
               map: map,
               icon: icons,
               content: 'ACCOUNTICO LTD'
             });
+            businesses.push(business_fifty_one);
             let business_fifty_two = new google.maps.Marker( {
               position: {lat: 52.54835, lng: -1.85160},
               map: map,
               icon: icons,
               content: 'Hexagon FM'
             });
+            businesses.push(business_fifty_two);
             let business_fifty_three = new google.maps.Marker( {
               position: {lat: 50.72133, lng: -1.87797},
               map: map,
               icon: icons,
               content: 'Smart Quality Services'
             });
+            businesses.push(business_fifty_three);
             let business_fifty_four = new google.maps.Marker( {
               position: {lat: 54.04553, lng: -2.89335},
               map: map,
               icon: icons,
               content: 'The Sales Lady'
             });
+            businesses.push(business_fifty_four);
             let business_fifty_five = new google.maps.Marker( {
               position: {lat: 53.40975, lng: -2.16424},
               map: map,
               icon: icons,
               content: 'F1rst Commercial Recruitment'
             });
+            businesses.push(business_fifty_five);
             let business_fifty_six = new google.maps.Marker( {
               position: {lat: 52.26199, lng: -0.78761},
               map: map,
               icon: icons,
               content: 'East Midlands HR Ltd'
             });
+            businesses.push(business_fifty_six);
+            for (let business of businesses) {
+              business.addListener('mouseover', function() {
+              business.setIcon(largerIcon);
+            });
+            business.addListener('mouseout', function() {
+              business.setIcon(icons);
+            });
+            }
           }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTBPu53ruaDHa9c78AVunyfGEpUPiGmtk&callback=initMap"></script>
