@@ -15,8 +15,3 @@ function changeAreaImageBack(area) {
     let image = document.getElementById(type + '-image');
     image.style.display = 'flex';
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    let collapsibles = document.querySelectorAll('.collapsible');
-    M.Collapsible.init(collapsibles);
-});
