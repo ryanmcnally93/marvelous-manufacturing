@@ -144,14 +144,19 @@
               map: map,
               icon: icons,
               content: 'Exactaform Cutting Tools Ltd',
-              title: 'business_one'
+              ariaLabel: 'label stuff',
+              title: 'business_one',
+              card: false
             });
             businesses.push(business_one);
             let business_two = new google.maps.Marker( {
               position: {lat: 53.28102, lng: -2.86991},
               map: map,
               icon: icons,
-              content: 'Greif UK Ltd'
+              content: 'Greif UK Ltd',
+              ariaLabel: 'other label stuff',
+              title: 'business_two',
+              card: false
             });
             businesses.push(business_two);
             let business_three = new google.maps.Marker( {
@@ -532,13 +537,48 @@
               content: 'East Midlands HR Ltd'
             });
             businesses.push(business_fifty_six);
+            function setWindows(business) {
+              let infoWindow = new google.maps.InfoWindow({
+                content: business.content,
+                ariaLabel: business.ariaLabel,
+              });
+              return infoWindow
+            }
+            let windows = [];
             for (let business of businesses) {
               business.addListener('mouseover', function() {
-              business.setIcon(largerIcon);
-            });
-            business.addListener('mouseout', function() {
-              business.setIcon(icons);
-            });
+                business.setIcon(largerIcon);
+              });
+              business.addListener('mouseout', function() {
+                business.setIcon(icons);
+              });
+              let currentCard = setWindows(business);
+              windows.push(currentCard);
+              business.addListener("click", () => {
+                if (business.card == false){
+                  // This closes all the other infoWindows
+                  // That aren't THIS businesses window
+                  console.log(windows)
+                  for (let w in windows) {
+                    if (w.Qq != currentCard) {
+                      console.log(w);
+                    } else {
+                      console.log('same =' + w);
+                    }
+                  }
+                  // This opens the current businesses window
+                  currentCard.open({
+                    anchor: business,
+                    map,
+                  });
+                  // Now we set the card to true to tell the system
+                  // that this card is currently open
+                  business.card = true;
+                } else {
+                  currentCard.close();
+                  business.card = false;
+                }
+              });
             }
           }
         </script>
