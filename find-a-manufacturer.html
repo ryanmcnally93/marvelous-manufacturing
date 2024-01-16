@@ -143,8 +143,30 @@
               position: {lat: 52.45736, lng: -1.52918},
               map: map,
               icon: icons,
-              content: 'Exactaform Cutting Tools Ltd',
-              ariaLabel: 'label stuff',
+              content: `
+
+              <div class="row m-0 business-card-row">
+                <p class="pl-2 mb-2 w-100 text-center"><strong>Exactaform Cutting Tools Ltd</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_one.jpeg" alt="Image of Exactaform Cutting Tools Ltd" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">📇 Careers Fair</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                  <p class="pl-2 m-0">📣 Guest Speaker</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.exactaform.com/" target="_blank">Visit company website</a>
+                </div>
+              </div>
+
+              `,
               title: 'business_one',
               card: false
             });
@@ -153,8 +175,29 @@
               position: {lat: 53.28102, lng: -2.86991},
               map: map,
               icon: icons,
-              content: 'Greif UK Ltd',
-              ariaLabel: 'other label stuff',
+              content: `
+              
+              <div class="row m-0 business-card-row">
+                <p class="pl-2 mb-2 w-100 text-center"><strong>Greif UK Ltd</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_two.jpg" alt="Image of Greif UK Ltd" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">📇 Careers Fair</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.greif.com/?utm_source=gmb&utm_medium=yext" target="_blank">Visit company website</a>
+                </div>
+              </div>
+
+              `,
               title: 'business_two',
               card: false
             });
@@ -163,8 +206,35 @@
               position: {lat: 55.40189, lng: -1.69705},
               map: map,
               icon: icons,
-              content: 'MSP Ltd',
-              ariaLabel: 'label stuff',
+              content: `
+              
+              <div class="row m-0 business-card-row">
+                <p class="pl-2 mb-2 w-100 text-center"><strong>MSP Ltd</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_three.png" alt="Image of MSP Ltd" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">📇 Careers Fair</p>
+                  <p class="pl-2 m-0">🎤 Mock Interviews</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                  <p class="pl-2 m-0">👥 Assemblies</p>
+                  <p class="pl-2 m-0">👨‍🔧 STEM Ambassador</p>
+                  <p class="pl-2 m-0">📣 Guest Speaker</p>
+                  <p class="pl-2 m-0">📋 Mentoring</p>
+                  <p class="pl-2 m-0">📝 Projects</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.mspltd.com" target="_blank">Visit company website</a>
+                </div>
+              </div>
+              
+              `,
               title: 'business_three',
               card: false
             });
@@ -720,7 +790,6 @@
                 if (business.card == false){
                   // This closes all the other infoWindows
                   // That aren't THIS businesses window
-
                   for (let i = 0; i < windows.length; i++) {
                     if (windows[i] != currentCard) {
                       windows[i].close();
@@ -743,7 +812,7 @@
             }
           }
         </script>
-        <!-- Create Restricted API Key and use here instead -->
+        <!-- Created Restricted API Key -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTBPu53ruaDHa9c78AVunyfGEpUPiGmtk&callback=initMap"></script>
     </main>
 

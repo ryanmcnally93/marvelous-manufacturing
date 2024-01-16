@@ -65,6 +65,48 @@ body {
     height: 700px;
 }
 
+/* This code styles the markers content */
+
+.business-card-row {
+    width: 300px;
+}
+
+.gm-style img {
+    max-width: 100%;
+    height: fit-content;
+}
+
+.gm-style-iw-d {
+    padding-bottom: 3px;
+    margin-right: -10px;
+}
+
+.col-4-5 {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+
+.col-7-5 {
+    flex: 0 0 65%;
+    max-width: 65%;
+    padding-right: 0 !important;
+    padding-left: 15px;
+}
+
+/* These two are styling the close buttons on the map markers */
+.gm-ui-hover-effect>span {
+    margin: 0 !important;
+}
+
+.gm-ui-hover-effect {
+    top: 2px !important;
+    right: 2px !important;
+    width: 15px !important;
+    height: 18px !important;
+    padding-left: 0.5px !important;
+    border-radius: 10%;
+}
+
 .map-images {
     border-radius: 50%;
 }
