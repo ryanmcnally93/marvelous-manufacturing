@@ -243,8 +243,40 @@
               position: {lat: 53.48887, lng: -1.29540},
               map: map,
               icon: icons,
-              content: 'Corrosion Resistant Materials Ltd',
-              ariaLabel: 'label stuff',
+              content: `
+              
+              <div class="row m-0 business-card-row">
+                <p class="pl-2 mb-2 w-100 text-center"><strong>Corrosion Resistant Materials Ltd</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_four.jpeg" alt="Image of Corrosion Resistant Materials Ltd" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">🚪 Open Door</p>
+                  <p class="pl-2 m-0">📇 Careers Fair</p>
+                  <p class="pl-2 m-0">🎤 Mock Interviews</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                  <p class="pl-2 m-0">👥 Assemblies</p>
+                  <p class="pl-2 m-0">👨‍🏫 Lesson Support</p>
+                  <p class="pl-2 m-0">❓ Guess Who Sessions</p>
+                  <p class="pl-2 m-0">📈 Taster Workshops</p>
+                  <p class="pl-2 m-0">👨‍🔧 STEM Ambassador</p>
+                  <p class="pl-2 m-0">👩‍💻 Apprentice Ambassador</p>
+                  <p class="pl-2 m-0">📣 Guest Speaker</p>
+                  <p class="pl-2 m-0">📋 Mentoring</p>
+                  <p class="pl-2 m-0">📝 Projects</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.corrosion-resistant-materials.co.uk" target="_blank">Visit company website</a>
+                </div>
+              </div>
+              
+              `,
               title: 'business_four',
               card: false
             });
@@ -253,8 +285,38 @@
               position: {lat: 52.44186, lng: -1.99949},
               map: map,
               icon: icons,
-              content: 'Lander Tubular Products',
-              ariaLabel: 'label stuff',
+              content: `
+              
+              <div class="row m-0 business-card-row">
+                <p class="pl-2 mb-2 w-100 text-center"><strong>Lander Tubular Products</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_five.jpeg" alt="Image of Lander Tubular Products" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">🚪 Open Door</p>
+                  <p class="pl-2 m-0">📇 Careers Fair</p>
+                  <p class="pl-2 m-0">🎤 Mock Interviews</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                  <p class="pl-2 m-0">👨‍🏫 Lesson Support</p>
+                  <p class="pl-2 m-0">❓ Guess Who Sessions</p>
+                  <p class="pl-2 m-0">👨‍🔧 STEM Ambassador</p>
+                  <p class="pl-2 m-0">👩‍💻 Apprentice Ambassador</p>
+                  <p class="pl-2 m-0">📣 Guest Speaker</p>
+                  <p class="pl-2 m-0">📋 Mentoring</p>
+                  <p class="pl-2 m-0">📝 Projects</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.lander.co.uk" target="_blank">Visit company website</a>
+                </div>
+              </div>
+              
+              `,
               title: 'business_five',
               card: false
             });
@@ -804,7 +866,6 @@
                   // that this card is currently open
                   business.card = true;
                 } else {
-                  console.log('The else statement has run instead?')
                   currentCard.close();
                   business.card = false;
                 }
