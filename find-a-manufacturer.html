@@ -480,18 +480,43 @@
               </div>
 
               `,
-              title: 'business_ten',
+              title: 'TNC Precision Engineering Ltd',
               card: false
             });
             businesses.push(business_ten);
-            // I am currently working here
             let business_eleven = new google.maps.Marker( {
               position: {lat: 50.89894, lng: -1.40023},
               map: map,
               icon: icons,
-              content: 'Martins Rubber Co Ltd',
-              ariaLabel: 'label stuff',
-              title: 'business_eleven',
+              content: `
+              
+              <div class="row m-0 business-card-row">
+                <p class="mb-2 w-100 text-center"><strong>Martins Rubber Co Ltd</strong></p>
+              </div>
+
+              <div class="row m-0 business-card-row">
+                <div class="col-4-5 p-0 d-flex align-items-center">
+                  <img src="./assets/images/business_eleven.jpeg" alt="Image of Martins Rubber Co Ltd" class="business-image">
+                </div>
+                <div class="col-7-5 d-flex flex-column justify-content-center">
+                  <p class="pl-2 m-0">🚪 Open Door</p>
+                  <p class="pl-2 m-0">🎤 Mock Interviews</p>
+                  <p class="pl-2 m-0">🏭 Work Experience</p>
+                  <p class="pl-2 m-0">🛠 Work Placement/T Levels</p>
+                  <p class="pl-2 m-0">📈 Taster Workshops</p>
+                  <p class="pl-2 m-0">📣 Guest Speaker</p>
+                  <p class="pl-2 m-0">📋 Mentoring</p>
+                  <p class="pl-2 m-0">📝 Projects</p>
+                </div>
+              </div>
+              <div class="row m-0 mt-2 business-card-row justify-content-center">
+                <div class="col-8 text-center">
+                  <a href="https://www.martins-rubber.co.uk" target="_blank">Visit company website</a>
+                </div>
+              </div>
+              
+              `,
+              title: 'Martins Rubber Co Ltd',
               card: false
             });
             businesses.push(business_eleven);
@@ -945,14 +970,18 @@
               card: false
             });
             businesses.push(business_fifty_six);
+
             function setWindows(business) {
               let infoWindow = new google.maps.InfoWindow({
                 content: business.content,
                 ariaLabel: business.ariaLabel,
+                company: business
               });
               return infoWindow
             }
+
             let windows = [];
+
             for (let business of businesses) {
               business.addListener('mouseover', function() {
                 business.setIcon(largerIcon);
@@ -965,22 +994,24 @@
               business.addListener("click", () => {
                 if (business.card == false){
                   // This closes all the other infoWindows
-                  // That aren't THIS businesses window
                   for (let i = 0; i < windows.length; i++) {
                     if (windows[i] != currentCard) {
                       windows[i].close();
+                      // Sets these business.card(s) to false
+                      windows[i].company.card = false;
                     }
                   }
-                  // This opens the current businesses window
+                  // This opens the current business's window
                   currentCard.open({
                     anchor: business,
                     map,
                   });
-                  // Now we set the card to true to tell the system
-                  // that this card is currently open
+                  // Setting business.card to true
                   business.card = true;
                 } else {
+                  // This card was open, clicking it closes it
                   currentCard.close();
+                  // And sets business.card to false
                   business.card = false;
                 }
               });
