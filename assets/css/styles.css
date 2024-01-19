@@ -87,10 +87,21 @@ body {
 }
 
 .col-7-5 {
-    flex: 0 0 65%;
-    max-width: 65%;
     padding-right: 0 !important;
-    padding-left: 15px;
+    padding-left: 0 !important;
+    margin: auto;
+    width: fit-content;
+}
+
+.gm-style-iw.gm-style-iw-c {
+    padding-right: 4px !important;
+}
+
+.col-7-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: auto;
+    width: fit-content;
 }
 
 /* These two are styling the close buttons on the map markers */
