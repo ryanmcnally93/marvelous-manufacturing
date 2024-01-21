@@ -24,7 +24,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_one.jpeg" alt="Image of Exactaform Cutting Tools Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_one.jpeg" alt="Image of Exactaform Cutting Tools Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -56,7 +56,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_two.jpg" alt="Image of Greif UK Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_two.jpg" alt="Image of Greif UK Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -87,7 +87,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_three.png" alt="Image of MSP Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_three.png" alt="Image of MSP Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -124,7 +124,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_four.jpeg" alt="Image of Corrosion Resistant Materials Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_four.jpeg" alt="Image of Corrosion Resistant Materials Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -166,7 +166,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_five.jpeg" alt="Image of Lander Tubular Products" class="business-image">
+          <img src="./assets/images/business_images/business_five.jpeg" alt="Image of Lander Tubular Products" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -206,7 +206,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_six.jpeg" alt="Image of Mavrik Innovations" class="business-image">
+          <img src="./assets/images/business_images/business_six.jpeg" alt="Image of Mavrik Innovations" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🏭 Work Experience</p>
@@ -238,7 +238,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_seven.jpeg" alt="Image of JJ Smith &amp; Co (Woodworking Machinery) Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_seven.jpeg" alt="Image of JJ Smith &amp; Co (Woodworking Machinery) Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -275,7 +275,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_eight.jpeg" alt="Image of MAT LTD" class="business-image">
+          <img src="./assets/images/business_images/business_eight.jpeg" alt="Image of MAT LTD" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -306,7 +306,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_nine.webp" alt="Image of Bosworth Plastics Limited" class="business-image">
+          <img src="./assets/images/business_images/business_nine.webp" alt="Image of Bosworth Plastics Limited" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -336,7 +336,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_ten.jpeg" alt="Image of TNC Precision Engineering Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_ten.jpeg" alt="Image of TNC Precision Engineering Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -369,7 +369,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_eleven.jpeg" alt="Image of Martins Rubber Co Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_eleven.jpeg" alt="Image of Martins Rubber Co Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -405,7 +405,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twelve.jpeg" alt="Image of National Manufacturing Institute Scotland" class="business-image">
+          <img src="./assets/images/business_images/business_twelve.jpeg" alt="Image of National Manufacturing Institute Scotland" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -437,7 +437,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirteen.png" alt="Image of Caswell Engineering services Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_thirteen.png" alt="Image of Caswell Engineering services Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -467,7 +467,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourteen.jpeg" alt="Image of Hydroscand Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_fourteen.jpeg" alt="Image of Hydroscand Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -499,7 +499,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifteen.jpeg" alt="Image of Boneham &amp; Turner Limited" class="business-image">
+          <img src="./assets/images/business_images/business_fifteen.jpeg" alt="Image of Boneham &amp; Turner Limited" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -536,7 +536,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_sixteen.jpeg" alt="Image of SD Technics Design &amp; Draughting" class="business-image">
+          <img src="./assets/images/business_images/business_sixteen.jpeg" alt="Image of SD Technics Design &amp; Draughting" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">👥 Assemblies</p>
@@ -562,7 +562,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_seventeen.jpeg" alt="Image of Geometric Manufacturing Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_seventeen.jpeg" alt="Image of Geometric Manufacturing Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -603,7 +603,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_eighteen.jpeg" alt="Image of Hone-All Precision Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_eighteen.jpeg" alt="Image of Hone-All Precision Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -634,7 +634,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_nineteen.jpeg" alt="Image of Figjam Solutions Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_nineteen.jpeg" alt="Image of Figjam Solutions Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📋 Mentoring</p>
@@ -664,7 +664,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty.jpeg" alt="Image of Stroud Engineering Services LTD" class="business-image">
+          <img src="./assets/images/business_images/business_twenty.jpeg" alt="Image of Stroud Engineering Services LTD" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -701,7 +701,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_one.jpeg" alt="Image of M-CNC Precision Engineering Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_one.jpeg" alt="Image of M-CNC Precision Engineering Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -735,7 +735,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_two.jpeg" alt="Image of Steve Murphy Continuous Improvement Limited" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_two.jpeg" alt="Image of Steve Murphy Continuous Improvement Limited" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">👨‍🔧 STEM Ambassador</p>
@@ -766,7 +766,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_three.jpeg" alt="Image of MSC" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_three.jpeg" alt="Image of MSC" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -807,7 +807,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_four.jpg" alt="Image of HQA" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_four.jpg" alt="Image of HQA" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -838,7 +838,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_five.jpeg" alt="Image of TCMUK Limited" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_five.jpeg" alt="Image of TCMUK Limited" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -870,7 +870,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_six.jpeg" alt="Image of Simon Davey Consulting Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_six.jpeg" alt="Image of Simon Davey Consulting Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">👨‍🏫 Lesson Support</p>
@@ -901,7 +901,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_seven.png" alt="Image of Calderdale and Kirklees Manufacturing Alliance (CKMA)" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_seven.png" alt="Image of Calderdale and Kirklees Manufacturing Alliance (CKMA)" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -934,7 +934,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_eight.jpeg" alt="Image of Liberty360 Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_eight.jpeg" alt="Image of Liberty360 Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -969,7 +969,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_twenty_nine.webp" alt="Image of Pennine Pneumatic Services Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_twenty_nine.webp" alt="Image of Pennine Pneumatic Services Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1010,7 +1010,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty.jpeg" alt="Image of EQUESTRIAN SURFACES LTD" class="business-image">
+          <img src="./assets/images/business_images/business_thirty.jpeg" alt="Image of EQUESTRIAN SURFACES LTD" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1048,7 +1048,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_one.jpeg" alt="Image of iDeas Design Consultants Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_one.jpeg" alt="Image of iDeas Design Consultants Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1082,7 +1082,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_two.webp" alt="Image of Atlas Leisure Homes" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_two.webp" alt="Image of Atlas Leisure Homes" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🏭 Work Experience</p>
@@ -1115,7 +1115,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_three.png" alt="Image of Excell Metal Spinning Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_three.png" alt="Image of Excell Metal Spinning Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🏭 Work Experience</p>
@@ -1145,7 +1145,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_four.jpeg" alt="Image of NCMT Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_four.jpeg" alt="Image of NCMT Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1175,7 +1175,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/sara-penrose.jpeg" alt="Image of Sara Penrose" class="business-image">
+          <img src="./assets/images/business_images/sara-penrose.jpeg" alt="Image of Sara Penrose" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1210,7 +1210,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_six.png" alt="Image of The Curve Consulting" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_six.png" alt="Image of The Curve Consulting" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🏭 Work Experience</p>
@@ -1240,7 +1240,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_seven.jpeg" alt="Image of Cambridge Micro Engineering Limited" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_seven.jpeg" alt="Image of Cambridge Micro Engineering Limited" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">👨‍🏫 Lesson Support</p>
@@ -1271,7 +1271,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_eight.jpeg" alt="Image of HCM Engineering" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_eight.jpeg" alt="Image of HCM Engineering" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1302,7 +1302,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_thirty_nine.jpeg" alt="Image of Birmingham Case Makers Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_thirty_nine.jpeg" alt="Image of Birmingham Case Makers Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1344,7 +1344,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty.jpeg" alt="Image of Engineering Media" class="business-image">
+          <img src="./assets/images/business_images/business_fourty.jpeg" alt="Image of Engineering Media" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1376,7 +1376,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_one.jpeg" alt="Image of Arracan Group" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_one.jpeg" alt="Image of Arracan Group" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1405,7 +1405,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_two.jpeg" alt="Image of My Future My Choice" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_two.jpeg" alt="Image of My Future My Choice" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -1443,7 +1443,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_three.jpeg" alt="Image of Kumon Rumney Study Centre" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_three.jpeg" alt="Image of Kumon Rumney Study Centre" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1478,7 +1478,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_four.jpeg" alt="Image of Blue Switch Marketing Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_four.jpeg" alt="Image of Blue Switch Marketing Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1511,7 +1511,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_five.jpeg" alt="Image of Boyden" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_five.jpeg" alt="Image of Boyden" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1542,7 +1542,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_six.jpeg" alt="Image of Axiom Energy" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_six.jpeg" alt="Image of Axiom Energy" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -1609,7 +1609,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_eight.png" alt="Image of CVG Solutions Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_eight.png" alt="Image of CVG Solutions Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🏭 Work Experience</p>
@@ -1641,7 +1641,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fourty_nine.jpeg" alt="Image of MindShaping Coaching" class="business-image">
+          <img src="./assets/images/business_images/business_fourty_nine.jpeg" alt="Image of MindShaping Coaching" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1673,7 +1673,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty.png" alt="Image of Charles Whitaker Changes" class="business-image">
+          <img src="./assets/images/business_images/business_fifty.png" alt="Image of Charles Whitaker Changes" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📣 Guest Speaker</p>
@@ -1703,7 +1703,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_one.png" alt="Image of ACCOUNTICO LTD" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_one.png" alt="Image of ACCOUNTICO LTD" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -1739,7 +1739,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_two.png" alt="Image of Hexagon FM" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_two.png" alt="Image of Hexagon FM" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">📇 Careers Fair</p>
@@ -1772,7 +1772,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_three.jpeg" alt="Image of Smart Quality Services" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_three.jpeg" alt="Image of Smart Quality Services" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1803,7 +1803,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_four.jpeg" alt="Image of The Sales Lady" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_four.jpeg" alt="Image of The Sales Lady" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🚪 Open Door</p>
@@ -1838,7 +1838,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_five.jpeg" alt="Image of F1rst Commercial Recruitment" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_five.jpeg" alt="Image of F1rst Commercial Recruitment" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
@@ -1872,7 +1872,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_fifty_six.jpeg" alt="Image of East Midlands HR Ltd" class="business-image">
+          <img src="./assets/images/business_images/business_fifty_six.jpeg" alt="Image of East Midlands HR Ltd" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
