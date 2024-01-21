@@ -18,6 +18,18 @@ body {
     height: 152px;
 }
 
+.homepage-links-row {
+    height: 650px;
+}
+
+.w-97 {
+    width: 97% !important;
+}
+
+.index-links-box {
+    height: 240px;
+}
+
 .bg-blue {
     background-color: rgb(16, 91, 172);
     color: white;
@@ -180,7 +192,7 @@ img {
 }
 
 .background {
-    background: url(/assets/images/courses-background.webp);
+    background: url(/assets/courses-background.webp);
     height: 862px;
 }
 
