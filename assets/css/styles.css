@@ -51,6 +51,7 @@ body {
     color: rgb(16, 91, 172);
     border: 1px solid darkblue;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .bg-lightblue-button {
@@ -64,6 +65,21 @@ body {
     color: rgb(16, 91, 172);
     border: 1px solid rgb(16, 91, 172);
     cursor: pointer;
+    text-decoration: none;
+}
+
+.bg-white-button {
+    background-color: white;
+    color: rgb(16, 91, 172);
+    border: 1px solid rgb(16, 91, 172);
+}
+
+.bg-white-button:hover {
+    background-color: #BCDBFB;
+    color: rgb(16, 91, 172);
+    border: 1px solid rgb(16, 91, 172);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #collapseOne, #collapseTwo {
