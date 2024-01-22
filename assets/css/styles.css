@@ -27,7 +27,12 @@ body {
 }
 
 .index-links-box {
-    height: 240px;
+    height: 245px;
+}
+
+.index-links-button {
+    z-index: 1;
+    margin-top: -15px;
 }
 
 .bg-blue {
