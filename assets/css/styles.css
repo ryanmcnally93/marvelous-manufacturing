@@ -213,8 +213,7 @@ img {
 }
 
 .background {
-    background: url(/assets/courses-background.webp);
-    height: 862px;
+    background: url(/assets/images/courses-background.webp);
 }
 
 .service-ul {
