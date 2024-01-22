@@ -356,6 +356,19 @@ img {
     font-weight: 600;
 }
 
+.jetfan {
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
 .area-anchor {
     width: 200px;
     height: 200px;
@@ -522,6 +535,7 @@ img {
 .white-button:hover {
     background-color: rgb(16, 91, 172);
     color: white;
+    text-decoration: none;
 }
 
 .request-link {
@@ -536,6 +550,12 @@ img {
     height: 680px;
     background-color: rgb(16, 91, 172);
     color: white;
+}
+
+.pink-festival-card {
+    height: 680px;
+    background-color: #F4D7F9;
+    color: rgb(16, 91, 172);
 }
 
 .festival-info {
