@@ -135,6 +135,10 @@ body {
     width: 200px !important;
 }
 
+.airbus-box {
+    border: 5px solid rgb(16, 91, 172);
+}
+
 #map {
     height: 650px;
 }
