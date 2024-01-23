@@ -139,6 +139,22 @@ body {
     border-top: 2px solid rgb(16, 91, 172);
 }
 
+.white-r-border {
+    border-right: 1px solid white;
+}
+
+.white-l-border {
+    border-left: 1px solid white;
+}
+
+.white-b-border {
+    border-bottom: 2px solid white;
+}
+
+.white-t-border {
+    border-top: 2px solid white;
+}
+
 #collapseOne, #collapseTwo, #collapseThree {
     padding-left: 15px;
     padding-right: 15px;
@@ -656,6 +672,10 @@ img {
 #lego-video {
     width: 90%;
     margin: 2rem 0;
+}
+
+#metal-video {
+    height: 500px;
 }
 
 .bg-lightpink {
