@@ -66,7 +66,7 @@ Wix.com is a tool used by many to create websites without needing the knowledge 
 
 <img src="./assets/images/readme-images/wix-issues-one.png" style="width: 50%;" alt="Mobile Responsiveness">
 
-<img src="./assets/images/readme-images/wix-issues-one.png" style="width: 70%;" alt="You have to scroll across for the rest of navbar!">
+<img src="./assets/images/readme-images/wix-issues-two.png" style="width: 70%;" alt="You have to scroll across for the rest of navbar!">
 
 This issue meant elements were simply unclickable on mobile devices, damaging the entire website for small screen users.
 
@@ -127,10 +127,9 @@ The design choices had been made by Angela, but lacked consistency in places. Th
 
 - Some other images are images taken directly from the business or project being mentioned in the surrounding articles.
 
-<div style="display: flex; flex-direction: row;">
-    <img src="./assets/images/readme-images/unhovered.png" style="width: 50%; padding: 5px;" alt="An element with sharp edges">
-    <img src="./assets/images/readme-images/hovered.png" style="width: 50%; padding: 5px;" alt="An element with sharp edges">
-</div>
+Unhovered             |  Hovered
+:-------------------------:|:-------------------------:
+![](./assets/images/readme-images/unhovered.png)  |  ![](./assets/images/readme-images/hovered.png)
 
 ### Q and A of Users
 
@@ -138,7 +137,7 @@ I've asked the following questions to:
 
 - <!-- List 3 customer's -->
 
-#### Q1 - What did you make of the products on offer? Where there any items you'd expect that weren't there?
+#### Q1 - What did you make of the services on offer?
 
 <!-- Person -->: 
 
