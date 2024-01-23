@@ -22,17 +22,13 @@ body {
   
   #main {
     overflow: auto;
-    padding-bottom: 180px;
-    /* must be same height as the footer */
+    padding-bottom: 152px;
   }
   
   #footer {
     position: relative;
-    margin-top: -180px;
-    /* negative value of footer height */
-    height: 180px;
+    margin-top: -152px;
     clear: both;
-    background-color: red;
   }
   
   body:before {
@@ -43,13 +39,7 @@ body {
     margin-top: -32767px;
   }
 
-  /* <div id="wrap">
-  <div id="main"></div>
-</div>
-
-<div id="footer"></div> */
-
-  /* End of Sticky Footer */
+/* End of Sticky Footer */
 
 #logo {
     width: 200px;
