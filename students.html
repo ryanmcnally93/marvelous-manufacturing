@@ -16,125 +16,126 @@
   <body>
 
     <!-- Header -->
-    <header>
-      <div id="logo-box" class="col-12 d-flex bg-blue">
-        <!-- Logo -->
-        <a class="col-4" href="index.html" aria-label="Home">
-            <img id="logo" src="./assets/images/logo.webp" alt="Marvelous Manufacturing Logo">    
-        </a>
-        <div id="header-message" class="col-8 d-flex align-items-center">
-            <p class="mb-0">Inspiring young people of today, to be the manufacturers of tomorrow</p>
-        </div>
-      </div>
+    <div id="wrap">
+      <main id="main">
+        <header>
+          <div id="logo-box" class="col-12 d-flex bg-blue">
+            <!-- Logo -->
+            <a class="col-4" href="index.html" aria-label="Home">
+                <img id="logo" src="./assets/images/logo.webp" alt="Marvelous Manufacturing Logo">    
+            </a>
+            <div id="header-message" class="col-8 d-flex align-items-center">
+                <p class="mb-0">Inspiring young people of today, to be the manufacturers of tomorrow</p>
+            </div>
+          </div>
 
-      <nav class="navbar navbar-expand-md navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse flex-column flex-wrap align-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <p class="mb-1"> | </p>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <p class="mb-1"> | </p>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Manufacturers
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="business-engagement.html">Business Engagement</a>
-                <a class="dropdown-item" href="festivals.html">Manufacturing Festivals</a>
-                <a class="dropdown-item" href="training.html">Organisations, Associations & Training</a>
-                <a class="dropdown-item" href="together.html">Let's work together!</a>
+          <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse flex-column flex-wrap align-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <p class="mb-1"> | </p>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <p class="mb-1"> | </p>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Manufacturers
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="business-engagement.html">Business Engagement</a>
+                    <a class="dropdown-item" href="festivals.html">Manufacturing Festivals</a>
+                    <a class="dropdown-item" href="training.html">Organisations, Associations & Training</a>
+                    <a class="dropdown-item" href="together.html">Let's work together!</a>
+                  </div>
+                </li>
+                <p class="mb-1"> | </p>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Schools, Colleges & Universities
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="what-we-provide.html">What we provide</a>
+                      <a class="dropdown-item" href="find-a-manufacturer.html">Find a Manufacturer</a>
+                    </div>
+                </li>
+                <p class="mb-1"> | </p>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Students
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item active" href="students.html">What is Manufacturing?</a>
+                      <a class="dropdown-item" href="areas.html">What area is best for me?</a>
+                      <a class="dropdown-item" href="getting-started.html">How do I get started?</a>
+                      <a class="dropdown-item" href="apprenticeships.html">Apprenticeships</a>
+                      <a class="dropdown-item" href="how-is-it-made.html">How is it made?</a>
+                    </div>
+                </li>
+                <p class="mb-1"> | </p>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Latest News</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div id="nav-decorator" class="col-12 bg-blue"></div>
+
+        </header>
+
+        <!-- Main Content -->
+        <div class="container">
+          <div class="row my-2">
+            <div class="col-6 pr-0">
+              <div class="students-image-box" onmouseover="changeAreaImage(jetfan)" onmouseout="changeAreaImageBack(jetfan)">
+                <img src="./assets/images/students-1.webp" alt="Largest jet engine in the world">
+                <p id="jetfan" class="jetfan">This is the largest jet engine in the world. Nearing completion at Rolls-Royce's Derby site, the UltraFan® demonstrator will be tested at the aerospace manufacturer’s new £90m Testbed 80 facility later this year. (Courtesy of Stuart Whitehead Founder Jefferson Group)</p>
               </div>
-            </li>
-            <p class="mb-1"> | </p>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Schools, Colleges & Universities
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="what-we-provide.html">What we provide</a>
-                  <a class="dropdown-item" href="find-a-manufacturer.html">Find a Manufacturer</a>
-                </div>
-            </li>
-            <p class="mb-1"> | </p>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Students
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item active" href="students.html">What is Manufacturing?</a>
-                  <a class="dropdown-item" href="areas.html">What area is best for me?</a>
-                  <a class="dropdown-item" href="getting-started.html">How do I get started?</a>
-                  <a class="dropdown-item" href="apprenticeships.html">Apprenticeships</a>
-                  <a class="dropdown-item" href="how-is-it-made.html">How is it made?</a>
-                </div>
-            </li>
-            <p class="mb-1"> | </p>
-            <li class="nav-item">
-                <a class="nav-link" href="news.html">Latest News</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+            </div>
 
-      <div id="nav-decorator" class="col-12 bg-blue"></div>
-
-    </header>
-
-    <!-- Main Content -->
-    <main class="section">
-
-      <div class="container">
-        <div class="row my-2">
-          <div class="col-6 pr-0">
-            <div class="students-image-box" onmouseover="changeAreaImage(jetfan)" onmouseout="changeAreaImageBack(jetfan)">
-              <img src="./assets/images/students-1.webp" alt="Largest jet engine in the world">
-              <p id="jetfan" class="jetfan">This is the largest jet engine in the world. Nearing completion at Rolls-Royce's Derby site, the UltraFan® demonstrator will be tested at the aerospace manufacturer’s new £90m Testbed 80 facility later this year. (Courtesy of Stuart Whitehead Founder Jefferson Group)</p>
+            <div class="col-6 pl-0">
+              <div class="bg-lightblue p-5 h-100 w-100 d-flex justify-content-center flex-column">
+                <h2 class="text-center mb-3">What is Manufacturing?</h2>
+                <p>Manufacturing is the art of turning raw materials into usable products.  It touches every part of our life, from the bed you wake up in, to the breakfast cereal you eat, the car you go to school in, the football you kick around the playground and the games console you play when you get home. Everyone of those items has been imagined, designed, tested, built marketed and sold.</p>
+              </div>
             </div>
           </div>
 
-          <div class="col-6 pl-0">
-            <div class="bg-lightblue p-5 h-100 w-100 d-flex justify-content-center flex-column">
-              <h2 class="text-center mb-3">What is Manufacturing?</h2>
-              <p>Manufacturing is the art of turning raw materials into usable products.  It touches every part of our life, from the bed you wake up in, to the breakfast cereal you eat, the car you go to school in, the football you kick around the playground and the games console you play when you get home. Everyone of those items has been imagined, designed, tested, built marketed and sold.</p>
+          <div class="row mb-4">
+            <div class="col">
+              <!-- Page Header -->
+              <div class="text-center mb-0 page-heading bg-blue text-white p-4">
+                <h1>What are the career options?</h1>
+              </div>
+              <div class="bg-lightblue p-4 text-center my-2">
+                <h4>Where do we even start!</h4>
+                <p>While we hear a lot about STEM and Engineering, which plays a big part in Manufacturing, there are also many other different types of roles and careers routes, which support manufacturing production that you might want to look at.</p>
+              </div>
+              <div class="diagram-box">
+                <img src="./assets/images/diagram-1.png" alt="Diagram of options available">
+                <img id="diagram-middle" src="./assets/images/diagram-middle.webp" alt="Production building">
+              </div>
+              <div class="d-none bg-lightblue p-4 align-items-center flex-column my-2">
+                <h4>Interested in becoming an Engineer but not sure what type of Engineer you can be?</h4>
+                <a class="white-button px-1 p-2 mt-2" href="#">Click here to find out more</a>
+              </div>
+
             </div>
           </div>
         </div>
 
-        <div class="row mb-4">
-          <div class="col">
-            <!-- Page Header -->
-            <div class="text-center mb-0 page-heading bg-blue text-white p-4">
-              <h1>What are the career options?</h1>
-            </div>
-            <div class="bg-lightblue p-4 text-center my-2">
-              <h4>Where do we even start!</h4>
-              <p>While we hear a lot about STEM and Engineering, which plays a big part in Manufacturing, there are also many other different types of roles and careers routes, which support manufacturing production that you might want to look at.</p>
-            </div>
-            <div class="diagram-box">
-              <img src="./assets/images/diagram-1.png" alt="Diagram of options available">
-              <img id="diagram-middle" src="./assets/images/diagram-middle.webp" alt="Production building">
-            </div>
-            <div class="d-none bg-lightblue p-4 align-items-center flex-column my-2">
-              <h4>Interested in becoming an Engineer but not sure what type of Engineer you can be?</h4>
-              <a class="white-button px-1 p-2 mt-2" href="#">Click here to find out more</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </main>
+      </main>
+    </div>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
       <div class="col-12 bg-blue footer-box">
         <div class="col-3 d-flex justify-content-center">
           <img id="alumni-image" src="./assets/images/alumni-image.webp" alt="Top 100 2022 Alumni">
