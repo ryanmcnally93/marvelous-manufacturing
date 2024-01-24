@@ -131,53 +131,25 @@ Unhovered             |  Hovered
 :-------------------------:|:-------------------------:
 ![](./assets/images/readme-images/unhovered.png)  |  ![](./assets/images/readme-images/hovered.png)
 
-### Q and A of Users
+### Q and A of Business Owner
 
-I've asked the following questions to:
+I've asked the following questions to business owner Angela Lawlor:
 
-- <!-- List 3 customer's -->
+#### Q1 - Are you happy with the website navigation?
 
-#### Q1 - What did you make of the services on offer?
+Answer: "<!-- Response -->"
 
-<!-- Person -->: 
+#### Q2 - How did you find the overall process of working with me?
 
-- "<!-- Response -->"
+Answer: "<!-- Response -->"
 
-#### Q2 - What makes a great website experience for you?
+#### Q3 - Do you feel you know how to update the website fully?
 
-<!-- Person -->: 
+Answer: "<!-- Response -->"
 
-- "<!-- Response -->"
+#### Q4 - What kind of feedback have you received?
 
-#### Q3 - What other information might you need?
-
-<!-- Person -->: 
-
-- "<!-- Response -->"
-
-#### Q4 - Would you use this site?
-
-<!-- Person -->: 
-
-- "<!-- Response -->"
-
-#### Q5 - Why?
-
-<!-- Person -->: 
-
-- "<!-- Response -->"
-
-#### Q6 - What changes could be made?
-
-<!-- Person -->: 
-
-- "<!-- Response -->"
-
-#### Q7 - How did you find the navigation of the site? Was it as smooth as it should be or were there anomalies?
-
-<!-- Person -->: 
-
-- "<!-- Response -->"
+Answer: "<!-- Response -->"
 
 ## Project Setup
 
