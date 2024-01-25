@@ -843,6 +843,22 @@ img {
     align-content: center;
 }
 
+@media (min-width: 406px) {
+    .col-inv {
+        display: none;
+    }
+}
+
+@media (max-width: 405px) {
+    #header-message {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .hm-p {
+        display: none;
+    }
+}
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
