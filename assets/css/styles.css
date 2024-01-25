@@ -38,6 +38,12 @@ button.navbar-toggler:focus {
     outline: 2px solid grey;
 }
 
+@media (min-width: 406px) {
+    .col-inv {
+        display: none;
+    }
+}
+
 /* Mobile Device Responsiveness */
 
 @media (max-width: 767px) {
@@ -55,6 +61,16 @@ button.navbar-toggler:focus {
     
     li.nav-item.dropdown.show, .dropdown-menu, li.nav-item.dropdown, .dropdown-menu.show {
         text-align: center;
+    }
+}
+
+@media (max-width: 405px) {
+    #header-message {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .hm-p {
+        display: none;
     }
 }
 
@@ -833,6 +849,7 @@ img {
 #alumni-image {
     margin-top: 20px;
     height: 112px;
+    max-width: fit-content;
 }
 
 .social-networks {
@@ -841,22 +858,6 @@ img {
     list-style-type: none;
     flex-wrap: wrap;
     align-content: center;
-}
-
-@media (min-width: 406px) {
-    .col-inv {
-        display: none;
-    }
-}
-
-@media (max-width: 405px) {
-    #header-message {
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-    .hm-p {
-        display: none;
-    }
 }
 
 .social-networks i {
@@ -877,6 +878,20 @@ img {
 
 .footer-box {
     display: inline-flex;
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 420px) {
+    .social-networks {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        margin-top: -5px;
+    }
+    #footer-name {
+        display: none;
+    }
 }
 
 /* Sticky Footer */
