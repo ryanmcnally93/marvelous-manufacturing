@@ -319,6 +319,15 @@ button.navbar-toggler:focus {
 
 /* Business Engagement Page */
 
+.changeable-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 /* Extra Large Device Responsiveness */
 
 @media (min-width: 1200px) {
@@ -340,6 +349,27 @@ button.navbar-toggler:focus {
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
+    }
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 576px) {
+    .leigh-box {
+        display: none !important;
+    }
+    .changeable-row {
+        flex-direction: column;
+        align-content: center;
+        margin-top: 0.5rem;
+    }
+    .ten-576 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .small-margin-row {
+        margin-left: -5px;
+        margin-right: -5px;
     }
 }
 
