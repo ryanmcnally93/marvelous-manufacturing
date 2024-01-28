@@ -401,6 +401,39 @@ button.navbar-toggler:focus {
     margin-bottom: 20px;
 }
 
+.festivals-ch-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Laptop Device Responsiveness */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .festival-info {
+        height: 320px;
+    }
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .festivals-ch-row {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .festival-card, .pink-festival-card {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
 /* Find a Manufacturer page */
 
 #map {

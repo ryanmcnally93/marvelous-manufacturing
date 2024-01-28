@@ -1175,7 +1175,7 @@ function initMap() {
 
       <div class="row m-0 business-card-row justify-content-center">
         <div class="col-4-5 p-0 d-flex align-items-center">
-          <img src="./assets/images/business_images/sara-penrose.jpeg" alt="Image of Sara Penrose" class="business-image">
+          <img src="./assets/images/sara-penrose.jpeg" alt="Image of Sara Penrose" class="business-image">
         </div>
         <div class="col-7-5 d-flex flex-column justify-content-center">
           <p class="pl-2 m-0">🎤 Mock Interviews</p>
