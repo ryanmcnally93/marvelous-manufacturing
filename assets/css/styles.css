@@ -635,6 +635,38 @@ button.navbar-toggler:focus {
     max-width: 350px;
 }
 
+/* Training Page */
+
+/* Laptop Device Responsiveness */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    img.training-img {
+        max-width: 120% !important;
+    }
+    .training-image-box {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .small-mb {
+        margin-bottom: 1rem;
+    }
+    .mid-training-row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 440px) {
+    .training-head {
+        text-align: center;
+    }
+}
+
 /* What We Provde Page */
 
 .quote-card {
