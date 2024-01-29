@@ -490,11 +490,6 @@ button.navbar-toggler:focus {
     border-radius: 10%;
 }
 
-.together-image {
-    border-radius: 50%;
-    width: 300px;
-}
-
 /* Getting Started Page */
 
 .about-image {
@@ -597,6 +592,12 @@ button.navbar-toggler:focus {
     background: url(/assets/images/courses-background.webp);
 }
 
+.together-image {
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: fit-content;
+}
+
 .service-ul {
     padding-left: 25px;
 }
@@ -633,6 +634,18 @@ button.navbar-toggler:focus {
     height: 720px;
     padding: 0;
     max-width: 350px;
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .m-flex-change {
+        flex-direction: column;
+        align-content: center;
+    }
+    .together-image {
+        max-height: 200px;
+    }
 }
 
 /* Training Page */
