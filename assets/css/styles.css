@@ -646,6 +646,26 @@ button.navbar-toggler:focus {
     .together-image {
         max-height: 200px;
     }
+    .service-card {
+        max-width: 100%;
+        height: 470px;
+        margin-bottom: 1rem;
+    }
+    .price-message {
+        height: 60px;
+    }
+    .result-row {
+        bottom: 40px;
+    }
+    .card-top {
+        height: 303px;
+    }
+    .background {
+        align-items: center;
+    }
+    .mb-this-0 {
+        margin-bottom: 0 !important;
+    }
 }
 
 /* Training Page */
