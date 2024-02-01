@@ -789,6 +789,14 @@ button.navbar-toggler:focus {
         align-content: center;
         flex-wrap: wrap;
     }
+    .t-flex-column-reverse {
+        -ms-flex-direction: column-reverse!important;
+        flex-direction: column-reverse!important;
+        align-items: center;
+    }
+    .stem-header {
+        text-align: center;
+    }
 }
 
 /* Mobile Device Responsiveness */
@@ -796,6 +804,26 @@ button.navbar-toggler:focus {
 @media (max-width: 767px) {
     .provide-row {
         margin: 0 5%;
+    }
+}
+
+@media (max-width: 540px) {
+    .provide-image-box {
+        display: none;
+    }
+    .provide-message {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding-left: 2rem !important;
+    }
+    .provide-card {
+        aspect-ratio: auto;
+    }
+    .provide-message h4 {
+        text-align: center;
+    }
+    .quote {
+        text-align: center;
     }
 }
 
