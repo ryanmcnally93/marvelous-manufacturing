@@ -648,23 +648,33 @@ button.navbar-toggler:focus {
     }
     .service-card {
         max-width: 100%;
-        height: 470px;
+        height: fit-content;
         margin-bottom: 1rem;
     }
     .price-message {
-        height: 60px;
-    }
-    .result-row {
-        bottom: 40px;
+        height: auto;
     }
     .card-top {
-        height: 303px;
+        height: auto;
+        overflow: visible;
     }
     .background {
         align-items: center;
     }
     .mb-this-0 {
         margin-bottom: 0 !important;
+    }
+    .result-row, .bottom-text {
+        position: static;
+    }
+    .bottom-text {
+        height: auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .background {
+        background: #fff;
     }
 }
 
