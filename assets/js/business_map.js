@@ -1,8 +1,16 @@
 function initMap() {
     let uk = {lat: 54.3555, lng: -4.8455};
-    let map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 5.75, center: uk}
-    );
+    // We need to check the screen size when loaded
+    // If it is small we zoom out a little
+    if (window.innerWidth < 767) {
+      var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 5.25, center: uk}
+      );
+    } else {
+      var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 5.75, center: uk}
+      );
+    }
     let icons = {
       url: './assets/images/markers.png',
       scaledSize: new google.maps.Size(27.25, 14.125),

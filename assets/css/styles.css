@@ -444,6 +444,23 @@ button.navbar-toggler:focus {
     border-radius: 50%;
 }
 
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .small-align-center {
+        align-items: center;
+    }
+    .sm-pr-0 {
+        padding-left: 30px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .map-images {
+        width: 150px;
+    }
+}
+
 /* Map Markers & infoWindows */
 
 .business-card-row {
