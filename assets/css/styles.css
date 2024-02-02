@@ -554,11 +554,8 @@ button.navbar-toggler:focus {
     .sm-pr-0 {
         padding-left: 30px !important;
     }
-}
-
-@media (max-width: 600px) {
     .map-images {
-        width: 150px;
+        display: none;
     }
 }
 
