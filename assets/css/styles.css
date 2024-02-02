@@ -610,6 +610,30 @@ button.navbar-toggler:focus {
     }
 }
 
+/* How is it Made Page */
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .sm-cont {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #pizza-video {
+        width: fit-content !important;
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .sm-cont {
+        max-width: 540px;
+    }
+}
+
 /* News Page */
 
 #collapseOne, #collapseTwo, #collapseThree {
@@ -1109,7 +1133,7 @@ img {
 
 #pizza-video {
     height: 400px;
-    width: 70%;
+    width: fit-content;
     margin: 1rem 0;
 }
 
@@ -1120,6 +1144,17 @@ img {
 
 #metal-video {
     height: 500px;
+}
+
+/* Mobile Device Font Size Control */
+
+@media (max-width: 767px) {
+    h1, h2, h3 {
+        font-size: 22px;
+    }
+    h4, p {
+        font-size: 16px;
+    }
 }
 
 /* Footer */
