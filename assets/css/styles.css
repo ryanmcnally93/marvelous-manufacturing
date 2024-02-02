@@ -535,6 +535,18 @@ button.navbar-toggler:focus {
         top: -35px;
         margin-left: -35px;
     }
+    .mt-6 {
+        margin-top: 3.5rem !important;
+    }
+}
+
+/* Mobile Device Responsiveness */
+
+@media (min-width: 570px) and (max-width: 767px) {
+    .mt-6 {
+        flex: 0 0 66.666667% !important;
+        max-width: 66.666667% !important;
+    }
 }
 
 /* News Page */
@@ -933,7 +945,7 @@ img {
 }
 
 .mt-6 {
-    margin-top: 4.5rem !important;
+    margin-top: 4.5rem;
 }
 
 .flex-auto {
