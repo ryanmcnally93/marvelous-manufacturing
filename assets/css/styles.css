@@ -730,6 +730,32 @@ button.navbar-toggler:focus {
     max-width: 40%;
 }
 
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .successful-image {
+        float: none;
+        margin-left: 0;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .successful-image {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .successful-image {
+        max-width: 70%;
+    }
+}
+
 /* Together Page */
 
 .background {
