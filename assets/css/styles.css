@@ -378,6 +378,33 @@ button.navbar-toggler:focus {
     border-top: 2px solid white;
 }
 
+.honing-small {
+    display: none;
+}
+
+/* Laptop Device Responsiveness */
+
+@media (max-width: 991px) {
+    .honing-small {
+        display: flex;
+    }
+    .honing-large {
+        display: none;
+    }
+}
+
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .col-md-tb-none {
+        border-top: none;
+    }
+    #metal-video {
+        max-width: 220px;
+        height: 100% !important;
+    }
+}
+
 /* Business Engagement Page */
 
 .changeable-row {
