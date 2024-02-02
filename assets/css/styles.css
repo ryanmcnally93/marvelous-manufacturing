@@ -572,7 +572,7 @@ button.navbar-toggler:focus {
     padding: 30px;
 }
 
-/* Laptop Device Responsiveness */
+/* Large Screen Responsiveness */
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #diagram-middle {
@@ -580,9 +580,18 @@ button.navbar-toggler:focus {
     }
 }
 
+/* Laptop Device Responsiveness */
+
 @media (min-width: 768px) and (max-width: 991px) {
     #diagram-middle {
         top: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    #jetfan {
+        max-width: 130%;
+        height: 100%;
     }
 }
 
@@ -591,6 +600,19 @@ button.navbar-toggler:focus {
 @media (max-width: 767px) {
     #diagram-middle {
         top: 60%;
+    }
+    .students-image-box {
+        margin-bottom: 0.5rem;
+        height: 400px;
+    }
+}
+
+@media (max-width: 575px) {
+    .diagram-box {
+        display: none;
+    }
+    .margin-above-diagram {
+        margin-bottom: 0 !important;
     }
 }
 
