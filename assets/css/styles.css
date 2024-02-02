@@ -646,6 +646,14 @@ button.navbar-toggler:focus {
     border-radius: 0;
 }
 
+/* Laptop Device Responsiveness */
+
+@media (max-width: 991px) {
+    .laptop-100 {
+        width: 100% !important;
+    }
+}
+
 /* Students Page */
 
 #diagram-middle {
@@ -1241,5 +1249,3 @@ img {
     width: 0;
     margin-top: -32767px;
   }
-
-/* End of Sticky Footer */
