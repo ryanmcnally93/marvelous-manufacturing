@@ -412,6 +412,12 @@ button.navbar-toggler:focus {
     }
 }
 
+@media (min-width: 400px) {
+    .d-400-block {
+        display: block !important;
+    }
+}
+
 /* Business Engagement Page */
 
 .changeable-row {
