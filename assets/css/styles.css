@@ -344,6 +344,13 @@ button.navbar-toggler:focus {
     border: 5px solid rgb(16, 91, 172);
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+    .sm-px-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
 /* (Areas) Metals Page */
 
 .col-r-border {
