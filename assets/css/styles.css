@@ -590,6 +590,18 @@ button.navbar-toggler:focus {
     padding-right: 4px !important;
 }
 
+/* Mobile Device Responsiveness */
+
+@media (max-width: 767px) {
+    .business-card-row {
+        width: 100%;
+    }
+    .gm-style-iw.gm-style-iw-c {
+        max-width: 300px !important;
+        margin: auto;
+    }
+}
+
 /* Map Marker infoWindow close Button */
 
 .gm-ui-hover-effect>span {
