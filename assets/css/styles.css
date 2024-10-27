@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.green-header {
+    color: #63A239;
+}
+
 #logo-box, .footer-box {
     height: 152px;
 }
@@ -1150,6 +1154,11 @@ img {
     color: white;
 }
 
+.bg-green {
+    background-color: #63A239;
+    color: white;
+}
+
 .bg-lightblue {
     background-color: #BCDBFB;
     color: rgb(16, 91, 172);
@@ -1215,6 +1224,20 @@ img {
 .white-button:hover {
     background-color: rgb(16, 91, 172);
     color: white;
+    text-decoration: none;
+}
+
+.green-button {
+    background-color: #63A239;
+    color: white;
+    border: 1px solid #63A239;
+    width: fit-content;
+    display: flex;
+}
+
+.green-button:hover {
+    background-color: white;
+    color: #63A239;
     text-decoration: none;
 }
 
