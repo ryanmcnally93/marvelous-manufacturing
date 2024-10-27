@@ -1213,6 +1213,10 @@ img {
     text-decoration: none;
 }
 
+.perspective-background {
+    background: linear-gradient(to bottom right, white, rgb(155, 198, 253));
+}
+
 .white-button {
     background-color: white;
     color: rgb(16, 91, 172);
